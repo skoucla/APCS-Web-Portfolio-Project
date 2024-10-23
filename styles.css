@@ -1,8 +1,11 @@
 body {
   font-family: sans-serif;
+  background-color: rgb(63, 61, 61);
+  color: rgba(255, 255, 255, 0.959);
 }
 a {
-  color: rgb(255, 81, 0);
+  color: rgb(238, 255, 0);
+  font-style: italic;
 }
 
 a:hover {
@@ -16,6 +19,7 @@ header {
 
 header h1 {
   font-size: 2em;
+  color: rgb(255, 255, 255);
 }
 
 header nav ul li {
@@ -43,7 +47,7 @@ header nav ul li {
 #aboutme img {
   width: 250px;
   float: left;
-  margin0right: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
@@ -51,4 +55,5 @@ header nav ul li {
 #aboutme h2 {
   font-size: 1.5em;
   margin-bottom: 10px;
+  font-style: italic;
 }
